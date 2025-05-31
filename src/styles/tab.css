@@ -1,0 +1,25 @@
+[data-bs-theme="light"] .coverAdmin {
+  margin-top:0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.5); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Efecto de desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para Safari */
+  padding: 0.2rem;
+  border-radius: 5px; /* Bordes redondeados */
+  color: var(--bs-body-color);
+min-height: fit-content;; /* Asegura que ocupe al menos la altura completa de la pantalla */
+min-width: 80vw;
+}
+
+[data-bs-theme="dark"] .coverAdmin {
+  margin-top:0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.3); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Efecto de desenfoque */
+  -webkit-backdrop-filter: blur(10px); /* Efecto de desenfoque para Safari */
+  padding: 0.2rem;
+  border-radius: 5px; /* Bordes redondeados */
+  color: var(--bs-body-color);
+min-height: fit-content; /* Asegura que ocupe al menos la altura completa de la pantalla */
+min-width: 80vw;
+}
